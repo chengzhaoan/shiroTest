@@ -23,3 +23,7 @@ testCustomRealm()
     securityManager.realms=$myRealm1  
     这个配置内容提供用户名密码的的验证服务
     其实内容也不多
+    
+testJDBCRealm  
+    这个是隐含的读表规则吧，否则知道jdbc 表的字段，也不一定能确定账号密码，sql语句没写
+Authenticator 管理多realm 的策略方式
